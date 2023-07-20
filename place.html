@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<header>
+ <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand"  href="">Аренда спецтехники в Московской области</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Главная</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/about">Контакты</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/place">Наше местоположение</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search" >
+          <button class="btn btn-outline-success" type="submit">Поиск</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+    </header>
+<br>
+<br>
+<br>
+<center>
+<h1>Где мы находимся:</h1>
+<br>
+<br>
+<h4>Посёлок городского типа <a href="https://www.google.com/maps/place/%D0%9C%D0%BE%D0%BD%D0%B8%D0%BD%D0%BE,+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB./@55.84091,38.1879846,14z/data=!3m1!4b1!4m6!3m5!1s0x414ad1ab79d279a7:0xda2069124df8f6e6!8m2!3d55.8426843!4d38.1871216!16zL20vMDR2YjA1">Монино</a> в городском округе Щёлково, Московской области России.<br> <br>
+Радиус действия: 25-30 км от <a href="https://www.google.com/maps/place/%D0%9C%D0%BE%D0%BD%D0%B8%D0%BD%D0%BE,+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB./@55.84091,38.1879846,14z/data=!3m1!4b1!4m6!3m5!1s0x414ad1ab79d279a7:0xda2069124df8f6e6!8m2!3d55.8426843!4d38.1871216!16zL20vMDR2YjA1">Монино</a>
+</h4>
+
+<br>
+<br>
+<div style="text-align: center;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17922.02017089538!2d38.16738507573759!3d55.840932376286645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ad1ab79d279a7%3A0xda2069124df8f6e6!2z0JzQvtC90LjQvdC-LCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0Lsu!5e0!3m2!1sru!2sru!4v1682971867961!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</center>
+<style media="(max-width: 525px)">
+              .me-2{
+                  display: none;
+              }
+              .btn-outline-success{
+                  display: none;
+              }
+      </style>
+      <style media="(max-width: 425px)">
+              .navbar-brand{
+                  font-size: 10px;
+              }
+      </style>
+</body>
+</html>
+
